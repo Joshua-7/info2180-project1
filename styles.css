@@ -99,7 +99,7 @@ li a:hover
   display: flex; 
   flex-direction: row;  
   max-height: 500px; 
-  column-gap: 10px;
+  column-gap: 15px;
   justify-content:center;
   margin-bottom: 10px;
 }
@@ -136,9 +136,9 @@ li a:hover
   background-color:#4A5568;
   border:80px solid #4A5568;
   color:white;
-  padding-top: 50px;
+  padding-top: 30px;
   padding-right: 30px;
-  padding-bottom: 50px;
+  padding-bottom: 30px;
   padding-left: 80px;
 }
 
@@ -147,6 +147,7 @@ li a:hover
     display: flex;
     flex-direction: row;
     justify-content:center;
+    grid-row: 5;
 }
 
 .testing-desciption
@@ -154,6 +155,7 @@ li a:hover
   flex:2;
   word-wrap:break-word;
   padding-right: 100px;
+  margin-left: 65px;
 }
 
 .cta
@@ -178,18 +180,30 @@ li a:hover
   text-align: center;
 }
 
+.stories > .container
+{
+    margin-top: 100px;
+    grid-row: 6;
+} 
 .stories > .container > h2
 {
     color: #5A67D8;
+    margin-left: 80px;
+}
+
+article
+{
+    margin-left: 80px;
 }
 
 article > img
 {
-    max-width: 20%;
+    max-width: 22%;
     height: auto;
     float: left;
     border-radius: 50%;
     margin-right: 50px;
+    margin-bottom: -5px;
     
 }
 
@@ -197,4 +211,73 @@ article > img
 {
     font-size: 18px;
 }
+
+.article-body a
+{
+    text-decoration:none;
+    color:#5A67D8;
+}
+
+.newsletter
+{
+    background-color: #48BB78;
+    color: white;
+}
+
+.newsletter > .container
+{
+    justify-content: center;
+    padding-bottom: 50px;
+    padding-top: 10px;
+    margin-top: 50px;
+}
+
+.newsletter > .container > h3
+{
+    justify-self:center;
+    margin-bottom: -25px;
+   
+}
+
+.newsletter > .container > p
+{
+    width: 71.5%;
+    justify-self: center;
+    word-wrap: break-word;
+    
+}
+
+form
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    column-gap: 10px;
+}
+.newsletter input
+{
+   width: 350px;
+   height: 40px;
+   border-radius: 5px;
+   border-color: white;
+   border-style: solid;
+}
+
+.newsletter .btn
+{
+    margin-left: 1px;
+    width: 150px;
+    border-radius: 5px;
+    background-color: #5A67D8;
+    border-color:  #5A67D8;
+    border-style: solid;
+    color: white;
+}
+
+footer
+{
+    background-color:#4A5568;
+    color: white;
+}
+
 
